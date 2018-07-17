@@ -1,5 +1,7 @@
-Idea Plugin Hello World Demo
-=======================
+Idea Plugin Selection Demo
+=========================
+
+About selection in Text
 
 Run plugin in IDEA
 ------------------

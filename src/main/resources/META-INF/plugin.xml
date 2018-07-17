@@ -1,6 +1,6 @@
 <idea-plugin>
-    <id>idea-plugin-hello-world-demo</id>
-    <name>idea-plugin-hello-world-demo</name>
+    <id>idea-plugin-selection-demo</id>
+    <name>idea-plugin-selection-demo</name>
     <version>1.0</version>
     <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
 
@@ -30,9 +30,10 @@
 
     <actions>
 
-        <group id="MyPlugin.SampleMenu" text="_Sample Menu" description="Sample menu">
+        <group id="idea-plugin-selection-demo.MyPlugin.SampleMenu" text="_Sample Menu" description="Sample menu of idea-plugin-selection-demo.">
             <add-to-group group-id="MainMenu" anchor="last"/>
-            <action id="action.popup" class="actions.HelloAction" text="_Popup" description="Popup a message"/>
+            <action id="idea-plugin-selection-demo.action.ShowSelectionAction" class="actions.ShowSelectionAction" text="_alert selection" description="Alert the selection text"/>
+            <action id="idea-plugin-selection-demo.action.SelectAction" class="actions.SelectAction" text="_select from start" description="Select text from doc start to current caret position"/>
         </group>
 
     </actions>
